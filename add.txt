@@ -1,0 +1,4 @@
+Define 1 as S(0).
+Define +(x,1) as S(x).
+Define +(x,S(y)) as S(+(x,y)).
+This hopefully defines +(x,y) for any x, y.
